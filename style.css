@@ -1,0 +1,185 @@
+/* style link for font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* styling for font */
+ body{
+    margin:  0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+ }
+/* removes the default underline that decorates the mic icon and any other decoration that follows the camera icon */
+a{
+  text-decoration: none;
+}
+ nav{
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   padding: 15px;
+
+ }
+
+ nav a{
+   text-decoration: none;
+   color: #525252;
+   margin-right: 20px;
+   font-size: 15px;
+
+ }
+
+ /* styling the app icon container */
+ .grid_icon{
+  width: 40px;
+  height: 40px;   
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 10px 0;  
+  text-align: center;                                                            
+ }
+
+/* using pseudoclass for the containers */
+ .grid_icon:hover{
+background-color: #525252;
+ }
+ /* styling the profile image */
+ nav img{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+object-fit: cover;
+ }
+ /* styling the icon app */
+.material-symbols-outlined { 
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+main{
+  width: 100%;
+}
+
+.center_container{
+  width: 600px;
+  /* height: 500px; */
+  margin: auto;
+  margin-top: 90px;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo{
+  /*defines the image properties, the margin-bottom specifies the space between the image and the next element*/
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+/*styling the input section*/
+.input_box{
+  width: 100%;
+  height: 45px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #f1f1f1;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.input_box input{
+  width: 100%;
+  background-color: #ffff;
+  border: none;
+  margin: 0 20px;
+}
+
+/* removes the focus from the search box when clicked i.e. removes the outline. */
+.input_box input:focus{
+  outline: none;
+}
+/* adding box shadow to the input box which shows when the box is hovered on. */
+.input_box:hover{
+  box-shadow: 1px 1px 1px 1px rgba(213, 216, 219, 0.75);
+}
+
+/* styling the input_icons (mic and camera icons) */
+.input_icons{
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  padding: 10px 0;
+  text-align:center;
+
+}
+.cam_icon{
+  width: 55%;
+
+}
+  /* styling for the search icon */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+/* styling for the mic icon */ 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.btn_box{
+  display: flex;
+  justify-content: center;
+}
+.btn_box button{
+  width: 140px;
+  height: 38px;
+  background-color: #f0f0f3;
+  color: #757677; 
+  margin: 0 15px;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 30px;
+}
+/* To create a border line effect when the button is hovered on. */
+.btn_box button:hover{
+border: 1px solid rgba(213, 216, 219, 0.75); 
+}
+
+.language_selection{
+  text-align: center;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  background-color: #fbf9f9;
+  margin: 0;;
+}
+
+.Country{
+  text-align: start;
+  padding: 0 30px;
+}
+
+.footer_links{
+  padding: 0 30px;
+  display: flex; 
+  justify-content: space-between;
+}
+
+.footer_links p a{
+  margin: 20px; 
+  color: #7e8286;
+  
+}
